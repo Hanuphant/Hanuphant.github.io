@@ -45,8 +45,8 @@ const portfolioData = {
   ]
 };
 
-// Palette from strict instructions
-const chartColors = ['#1FB8CD', '#FFC185', '#B4413C', '#ECEBD5', '#5D878F', '#DB4545', '#D2BA4C', '#964325', '#944454', '#13343B'];
+// Professional Light Blue Color Palette for Charts
+const chartColors = ['#0EA5E9', '#38BDF8', '#7DD3FC', '#BAE6FD', '#E0F2FE', '#0284C7', '#0369A1', '#075985', '#0C4A6E', '#164E63'];
 
 // ------------------ Elements ------------------
 let navbar, navbarLinks, mobileMenuToggle, navbarMenu, themeToggleBtn, typewriterEl, skillsChartCtx, projectsContainer, filterBtns, contactForm, successMsg, errorMsg;
