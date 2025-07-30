@@ -412,6 +412,13 @@ function initContactForm() {
     e.preventDefault();
     clearFormErrors();
     
+    // Copy email to hidden _replyto field for Formspree
+    const emailField = document.getElementById('email');
+    const hiddenReplyTo = document.getElementById('hidden-replyto');
+    if (emailField && hiddenReplyTo) {
+      hiddenReplyTo.value = emailField.value;
+    }
+    
     const formData = new FormData(contactForm);
     const data = Object.fromEntries(formData.entries());
     
